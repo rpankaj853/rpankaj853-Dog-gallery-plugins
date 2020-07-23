@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dog Gallery </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/css/bootstrap.modallery.min.css">
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-1 text-center border">
+                        <nav class="navbar navbar-light ">
+                            <a class="navbar-brand" href="#">
+                                <img src="logo-1.1.png" width="50" height="50" alt="" loading="lazy">
+                            </a>
+                        </nav>
+                    </div>
+
+                    <div class="col-sm-11 text-center border navbar-inverse">
+                        <h3 class="text-center   p-4 text-muted">benzaglabs</h3>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section>
+            <title>header image</title>
+            <div class="jumbotron bg-img">
+                <h3 style="padding:100px" class=" text-center  text-monospace"> Dogs Gallery Site</h3>
+            </div>
+
+        </section>
+
+        <div class="container">
+            <img src="dog-img/dog1.jfif" data-to="dog-img/dog1.jfif" class="modallery">
+            <img src="dog-img/dog2.jfif" data-to="dog-img/dog2.jfif" class="modallery">
+            <img src="dog-img/dog-3.jfif" data-to="dog-img/dog-3.jfif" class="modallery">
+            <img src="dog-img/dog-4.jfif" data-to="dog-img/dog-4.jfif" class="modallery">
+            <img src="dog-img/dog-5.jfif" data-to="dog-img/dog-5.jfif" class="modallery">
+            <img src="dog-img/dog-6.jfif" data-to="dog-img/dog-6.jfif" class="modallery">
+            <img src="dog-img/dog-7.jfif" data-to="dog-img/dog-7.jfif" class="modallery">
+            <img src="dog-img/doog-8.jfif" data-to="dog-img/doog-8.jfif" class="modallery">
+
+
+
+        </div>
+
+    </main>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <script src='src/js/bootstrap.modallery.min.js'></script>
+    <script>
+        $(document).modallery({
+            title: 'The Dog Gallery',
+            navigate: true,
+            arrows: true,
+            keypress: true
+        });
+
+    </script>
+</body>
+
+</html>

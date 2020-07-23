@@ -1,0 +1,23 @@
+
+.bg-img{
+    
+    background-color: aqua;
+    background-image: url("head-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;     
+
+}
+.container {
+            background: #f9f9f9;
+        }
+        
+        .flex-column {
+            max-width: 260px;
+        }
+        
+        img {
+            margin: 5px;
+        }
+        
+
